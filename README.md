@@ -17,3 +17,12 @@ git hook 是 Git 提供的事件觸發 script 腳本，sample 檔都會放在 Re
 
 #### post-receive.py 是通知 line notify 的執行檔案 config.ini 要和此檔放在同一層，如果要直接執行發送，也可執行以下指令
 `python3 post-receive.py`
+
+
+### 參考資料
+
+[Windows 環境下為 Git Repository 加上 Git Hook](https://blog.yowko.com/git-hook-windows/)
+[提升程式碼品質：使用 Pre-Commit (Git Hooks)](https://mropengate.blogspot.com/2019/08/pre-commit-git-hooks_4.html)
+[Git hook 快速指南](https://darkblack01.blogspot.com/2015/04/githoook-1.html)
+[python 實作發送line notify 訊息](https://bustlec.github.io/note/2018/07/10/line-notify-using-python/)
+
